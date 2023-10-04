@@ -11,9 +11,7 @@ async function getData(){
   
 const  WorkList = async () => {
     const data = await getData()
-    console.log(data)
     
-
     return (
 
         <div className="bg-[var(--white)] px-16 pt-20 mt-auto">

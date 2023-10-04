@@ -1,10 +1,10 @@
 
-import { AiFillInstagram, AiOutlineTwitter } from 'react-icons/ai';
-import { BiLogoFacebook } from 'react-icons/bi';
+import { AiFillInstagram, AiOutlineTwitter } from 'react-icons/Ai';
+import { BiLogoFacebook } from 'react-icons/Bi';
 async function getData(){
     let res =  await fetch("https://agency.teamrabbil.com/api/TeamList")
     if(!res.ok){
-        throw new Error('calling Team List Error')
+        throw new Error('calling Team Team Error')
     }
     return res.json()
   }
