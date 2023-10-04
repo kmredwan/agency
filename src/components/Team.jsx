@@ -1,6 +1,6 @@
 
-import { AiFillInstagram, AiOutlineTwitter } from 'react-icons/Ai';
-import { BiLogoFacebook } from 'react-icons/Bi';
+import { AiFillInstagram, AiOutlineTwitter } from 'react-icons/ai';
+import { BiLogoFacebook } from 'react-icons/bi';
 async function getData(){
     let res =  await fetch("https://agency.teamrabbil.com/api/TeamList")
     if(!res.ok){
